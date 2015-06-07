@@ -42,7 +42,7 @@ public class PotfolioActivity extends ActionBarActivity {
     public void sendMessage(View view) {
         final CharSequence btnText = ((AppCompatButton) view).getText();
         Toast toast = Toast.makeText(getApplicationContext(),
-                "This will launch "+((AppCompatButton) view).getText(), Toast.LENGTH_SHORT);
+                "This will launch "+btnText, Toast.LENGTH_SHORT);
         toast.show();
     }
 }
